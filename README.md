@@ -124,7 +124,14 @@ prompting-helper/
 ├── requirements-dev.txt
 └── version_info.txt         # Windows build version metadata
 ```
-## Running the test and Generating Test Results SVG (for nice visuals)
+## Running the test 
+### Expected output
+
+<p align="center">
+  <img src="images/pytest_results.svg" alt="pytest results"/>
+</p>
+
+### Generating the SVG image from the Test Results (for nice visuals)
 
 The repo includes a script to regenerate the test results SVG shown above.
 This is useful if you add new tests and want to update the visual output.
@@ -157,13 +164,6 @@ You can customize the color theme by editing the `theme= parameter` in
 | DIMMED_MONOKAI | Softer darker version |
 | NIGHT_OWLISH | Dark blue-toned night owl |
 | SVG_EXPORT_THEME | Rich's default light theme |
-
-
-### Expected output
-
-<p align="center">
-  <img src="images/pytest_results.svg" alt="pytest results"/>
-</p>
 
 ## Contributing
 
