@@ -47,7 +47,7 @@ COSTAR is a prompt engineering technique that structures your prompts across six
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/prompting-helper.git
+git clone https://github.com/Efrazar/Prompting_helper_COSTAR.git
 cd prompting-helper
 
 # 2. Create and activate a virtual environment
@@ -87,7 +87,7 @@ After building with PyInstaller on Windows, you can create an installer using NS
 ```bash
 makensis installer.nsi
 ```
-This will generate PromptingHelper-Setup-1.0.0.exe.
+This will generate PromptingHelper-Setup-1.0.0.exe.\
 Where is my data stored?
 
 Your prompts are saved locally in a SQLite database. The location depends on your OS:
@@ -124,9 +124,9 @@ prompting-helper/
 ├── requirements-dev.txt
 └── version_info.txt         # Windows build version metadata
 ```
-Contributing
+## Contributing
 
 Contributions are welcome! Feel free to open issues or pull requests.
 License
 
-MIT License — see LICENSE.txt for details.
+MIT License — see `LICENSE.txt` for details.
