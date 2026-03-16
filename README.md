@@ -1,4 +1,4 @@
-# 🌟 Prompting Helper
+# 🌟 COSTAR Prompting Helper
 
 A desktop app that helps you craft better AI prompts using the **COSTAR framework** — and keeps a searchable library of all the prompts you create.
 
