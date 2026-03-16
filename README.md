@@ -146,12 +146,13 @@ This will:
 
     Save a fresh `images/pytest_results.svg` file
 
-Themes
+### Themes
 
-You can customize the color theme by editing the theme= parameter in
+You can customize the color theme by editing the `theme= parameter` in
 `export_test_svg.py`. Available built-in themes:
 
 | Theme | Style |
+|---|---|
 | MONOKAI | Dark, classic Monokai colors (default) |
 | DIMMED_MONOKAI | Softer darker version |
 | NIGHT_OWLISH | Dark blue-toned night owl |
