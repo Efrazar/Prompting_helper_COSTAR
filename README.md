@@ -122,11 +122,10 @@ prompting-helper/
 ├── prompting_helper_linux.spec
 ├── prompting_helper_macos.spec
 ├── prompting_helper_windows.spec
-├── pytest.ini
+├── pytest.ini               # Test 
 ├── README.md
 ├── requirements-dev.txt
 ├── requirements.txt
-
 └── version_info.txt         # Windows build version metadata
 ```
 ## Running the test 
