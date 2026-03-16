@@ -1,0 +1,5 @@
+# Core dependencies for Prompting Helper
+PySide6==6.7.2
+SQLAlchemy==2.0.23
+# Optional but recommended for better Windows icon support
+pillow==10.1.0

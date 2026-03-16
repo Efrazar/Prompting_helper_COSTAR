@@ -1,0 +1,31 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# PyInstaller build artifacts
+dist/
+build/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# SQLite database (user data — generated at runtime)
+*.db
+*.sqlite3
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Egg / packaging artifacts
+*.egg-info/
+.eggs/
+
+# Others
+docs/

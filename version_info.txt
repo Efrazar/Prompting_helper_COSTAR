@@ -1,0 +1,33 @@
+# UTF-8
+# Windows version info file for PyInstaller (Windows builds only)
+# This file is NOT used on macOS or Linux builds
+
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 0, 0, 0),
+    prodvers=(1, 0, 0, 0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+  ),
+  kids=[
+    StringFileInfo(
+      [
+      StringTable(
+        u'040904B0',
+        [StringStruct(u'Author', u'Efrain Zarazua Arvizu'),
+        StringStruct(u'FileDescription', u'Prompting Helper - COSTAR Method Tool'),
+        StringStruct(u'FileVersion', u'1.0.0.0'),
+        StringStruct(u'InternalName', u'PromptingHelper'),
+        StringStruct(u'LegalCopyright', u'Copyright © 2025 Efrain Zarazua Arvizu'),
+        StringStruct(u'OriginalFilename', u'PromptingHelper.exe'),
+        StringStruct(u'ProductName', u'Prompting Helper'),
+        StringStruct(u'ProductVersion', u'1.0.0.0')])
+      ]),
+    VarFileInfo([VarStruct(u'Translation', [1033, 1200])])
+  ]
+)
+
