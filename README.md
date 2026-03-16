@@ -125,6 +125,14 @@ prompting-helper/
 └── version_info.txt         # Windows build version metadata
 ```
 ## Running the test 
+```bash
+source venv/bin/activate
+pytest
+```
+Or for more detailed information:
+```bash
+pytest -v
+```
 ### Expected output
 
 <p align="center">
@@ -146,12 +154,9 @@ venv\Scripts\activate           # Windows
 python export_test_svg.py
 ```
 This will:
-
-    Run the full test suite automatically
-
-    Capture the output with rich formatting
-
-    Save a fresh `images/pytest_results.svg` file
+- Run the full test suite automatically
+- Capture the output with rich formatting
+- Save a fresh `images/pytest_results.svg` file
 
 ### Themes
 
