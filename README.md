@@ -102,6 +102,7 @@ Project Structure
 
 ```text
 prompting-helper/
+├── CHANGELOG.md
 ├── src/
 │   ├── main.py              # App entry point
 │   ├── models/
@@ -111,17 +112,21 @@ prompting-helper/
 │   │   └── main_window.py   # Main window + dialogs
 │   └── utils/
 │       └── database.py      # Database operations
-├── docs/                    # Additional documentation
+├── images/                  
 ├── tests/                   # Unit tests
 ├── icon.ico                 # Windows icon
 ├── icon.png                 # Linux icon
+├── icons.icns               # Mac icon
 ├── installer.nsi            # Windows NSIS installer script
 ├── LICENSE.txt
-├── prompting_helper_windows.spec
-├── prompting_helper_macos.spec
 ├── prompting_helper_linux.spec
-├── requirements.txt
+├── prompting_helper_macos.spec
+├── prompting_helper_windows.spec
+├── pytest.ini
+├── README.md
 ├── requirements-dev.txt
+├── requirements.txt
+
 └── version_info.txt         # Windows build version metadata
 ```
 ## Running the test 
