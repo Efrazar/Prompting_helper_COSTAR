@@ -124,6 +124,46 @@ prompting-helper/
 ├── requirements-dev.txt
 └── version_info.txt         # Windows build version metadata
 ```
+## Running the test and Generating Test Results SVG (for nice visuals)
+
+The repo includes a script to regenerate the test results SVG shown above.
+This is useful if you add new tests and want to update the visual output.
+
+### Run the script
+
+```bash
+# From the project root with your virtual environment active
+source venv/bin/activate        # macOS/Linux
+venv\Scripts\activate           # Windows
+
+python export_test_svg.py
+```
+This will:
+
+    Run the full test suite automatically
+
+    Capture the output with rich formatting
+
+    Save a fresh `images/pytest_results.svg` file
+
+Themes
+
+You can customize the color theme by editing the theme= parameter in
+`export_test_svg.py`. Available built-in themes:
+
+| Theme | Style |
+| MONOKAI | Dark, classic Monokai colors (default) |
+| DIMMED_MONOKAI | Softer darker version |
+| NIGHT_OWLISH | Dark blue-toned night owl |
+| SVG_EXPORT_THEME | Rich's default light theme |
+
+
+### Expected output
+
+<p align="center">
+  <img src="images/pytest_results.svg" alt="pytest results"/>
+</p>
+
 ## Contributing
 
 Contributions are welcome! Feel free to open issues or pull requests.

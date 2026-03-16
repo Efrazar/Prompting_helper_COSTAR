@@ -3,6 +3,7 @@
 
 # Testing
 pytest==7.4.3
+pytest-rich
 
 # Code quality
 black==23.12.0
