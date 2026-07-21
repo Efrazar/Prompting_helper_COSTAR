@@ -162,18 +162,6 @@ This will:
 - Capture the output with rich formatting
 - Save a fresh `images/pytest_results.svg` file
 
-### Themes
-
-You can customize the color theme by editing the `theme= parameter` in
-`export_test_svg.py`. Available built-in themes:
-
-| Theme | Style |
-|---|---|
-| MONOKAI | Dark, classic Monokai colors (default) |
-| DIMMED_MONOKAI | Softer darker version |
-| NIGHT_OWLISH | Dark blue-toned night owl |
-| SVG_EXPORT_THEME | Rich's default light theme |
-
 ## Contributing
 
 Contributions are welcome! Feel free to open issues or pull requests.
