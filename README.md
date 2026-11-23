@@ -6,8 +6,6 @@ A desktop app that helps you craft better AI prompts using the **COSTAR framewor
   <img src="images/Prompting_helper_screenshot.png" alt="Prompting Helper - main window" width="800"/>
 </p>
 
-
-
 ## What is COSTAR?
 
 COSTAR is a prompt engineering technique that structures your prompts across six dimensions for better, more consistent AI responses:
@@ -24,8 +22,6 @@ COSTAR is a prompt engineering technique that structures your prompts across six
 > This app also includes an optional **Role** and **Initial Analysis** field for even more precision.
 
 ## Features
-
-![Prompting Helper screenshot](Others/Prompting_helper_screenshot.png)
 
 - 📝 Guided form for filling in each COSTAR field
 - 📋 One-click copy of the complete formatted prompt to clipboard
@@ -74,7 +70,6 @@ Make sure you have installed requirements-dev.txt first:
 pyinstaller prompting_helper_windows.spec
 
 # macOS
-# Note: you need icon.icns — convert icon.png to icon.icns first
 pyinstaller prompting_helper_macos.spec
 
 # Linux
@@ -98,7 +93,7 @@ Your prompts are saved locally in a SQLite database. The location depends on you
 
     Linux: ~/.local/share/PromptingHelper/prompts.db
 
-Project Structure
+## Project Structure
 
 ```text
 prompting-helper/
@@ -112,23 +107,23 @@ prompting-helper/
 │   │   └── main_window.py   # Main window + dialogs
 │   └── utils/
 │       └── database.py      # Database operations
-├── images/                  
+├── images/                  # README screenshot and test report
 ├── tests/                   # Unit tests
 ├── icon.ico                 # Windows icon
 ├── icon.png                 # Linux icon
-├── icons.icns               # Mac icon
+├── icon.icns                # Mac icon
 ├── installer.nsi            # Windows NSIS installer script
 ├── LICENSE.txt
 ├── prompting_helper_linux.spec
 ├── prompting_helper_macos.spec
 ├── prompting_helper_windows.spec
-├── pytest.ini               # Test 
+├── pytest.ini               # Test configuration
 ├── README.md
 ├── requirements-dev.txt
 ├── requirements.txt
 └── version_info.txt         # Windows build version metadata
 ```
-## Running the test 
+## Running the tests
 ```bash
 source venv/bin/activate
 pytest
